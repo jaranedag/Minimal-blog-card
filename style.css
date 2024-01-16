@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Sora:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FAFAF9;
+}
+section,
+section img{
+    height: fit-content;
+    border-radius: 10px;
+
+}
+
+section{
+    background-color: #FFFFFF;
+    
+}
+
+section div{
+    width: 336px;
+    padding: 16px;
+
+}
+section img {
+    width: 336px;
+
+    margin-bottom: 16px;
+}
+
+section .tag {
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    padding: 6px 16px;
+    border-radius: 16px;
+}
+
+section h1 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+section p {
+    font-size:  0.875rem;
+    margin-bottom: 20px;
+    color: #6C727F;
+}
+
+section div:nth-child(1){
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+section .author {
+    color: #6C727F;
+    font-size: 0.75rem;
+}
